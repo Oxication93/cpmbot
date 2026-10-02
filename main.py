@@ -6,7 +6,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, ConversationHandler, filters
 import os
 
-BOT_TOKEN = os.environ.get("8642950375:AAE1oEeQi0bIOtM1lAcA-X2H1JaUESXIqlc", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 FIREBASE_API_KEY = os.environ.get("FIREBASE_KEY", "AIzaSyD9example123")
 
 app2 = Flask('')
